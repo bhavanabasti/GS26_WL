@@ -1,0 +1,23 @@
+uuid: 5c8e0e46-2896-489f-971e-2ce6d467bc46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_qunt_att_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_qunt_att_essay
+field_name: field_e_e_section_qunt_att_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay Section Questions not attempted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

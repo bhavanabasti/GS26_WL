@@ -1,0 +1,19 @@
+uuid: 4003c1f7-5d47-4927-b1f3-2644e7072d7f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_ttl_ques_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_ttl_ques_essay
+field_name: field_e_e_section_ttl_ques_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay  Total Questions'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

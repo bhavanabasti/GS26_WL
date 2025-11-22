@@ -1,0 +1,19 @@
+uuid: a8cc6f44-7b0e-4e9d-b3e1-7d65415d3227
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_type_quan
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_type_quan
+field_name: field_e_e_section_type_quan
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Quantitative Section Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

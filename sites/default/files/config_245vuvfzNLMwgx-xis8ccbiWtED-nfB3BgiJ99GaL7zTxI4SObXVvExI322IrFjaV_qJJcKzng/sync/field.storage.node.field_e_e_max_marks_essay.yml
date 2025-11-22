@@ -1,0 +1,20 @@
+uuid: c3dd2eb5-2805-46f4-b8b1-7edbc2bd83da
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_max_marks_essay
+field_name: field_e_e_max_marks_essay
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

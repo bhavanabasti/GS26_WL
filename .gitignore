@@ -1,0 +1,37 @@
+# Ignore Drupal core and vendor
+/core/
+/vendor/
+/sites/*/private/
+/sites/*/translations/
+
+# Ignore contributed code
+/modules/contrib/
+/themes/contrib/
+/profiles/contrib/
+
+# Keep custom code
+/modules/custom/
+/themes/custom/
+/profiles/custom/
+
+# Ignore configuration that isn’t exported
+/config/
+/tmp/
+
+# Common system files
+*.sql
+*.sql.gz
+*.log
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+.env
+
+# Local Drupal settings (do not commit)
+sites/*/settings.local.php
+sites/*/services.local.yml
+sites/*/development.services.yml
+sites/development.services.yml
+sites/example.settings.local.php
+sites/example.services.local.yml

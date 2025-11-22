@@ -1,0 +1,19 @@
+uuid: 350128ee-215c-45c9-af2b-1d5de96bb880
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_qnv_wcs
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_qnv_wcs
+field_name: field_e_e_section_qnv_wcs
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Wildlife and Conservation Science Section Questions not visited'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

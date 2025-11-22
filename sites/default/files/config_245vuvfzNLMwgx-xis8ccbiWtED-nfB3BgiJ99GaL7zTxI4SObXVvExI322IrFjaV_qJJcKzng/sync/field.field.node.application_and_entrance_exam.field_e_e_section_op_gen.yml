@@ -1,0 +1,19 @@
+uuid: 3ff5154d-96b1-4751-833f-ec8526a54d39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_op_gen
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_op_gen
+field_name: field_e_e_section_op_gen
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'General Section Optional/Mandatory'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

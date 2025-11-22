@@ -1,0 +1,23 @@
+uuid: 0f20ff57-fb39-4281-ab3d-22af59389671
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_max_marks_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_max_marks_essay
+field_name: field_e_e_max_marks_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay Section Maximum Marks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,20 @@
+uuid: 6d9186be-08fb-4d86-937e-634c2bdd772d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_ttl_att_wcs
+field_name: field_e_e_ttl_att_wcs
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

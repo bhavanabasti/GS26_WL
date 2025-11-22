@@ -1,0 +1,20 @@
+uuid: e6b3e9b6-8fb3-4e05-bc0e-2fe4b21c402d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_ttl_wrng_gen
+field_name: field_e_e_ttl_wrng_gen
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

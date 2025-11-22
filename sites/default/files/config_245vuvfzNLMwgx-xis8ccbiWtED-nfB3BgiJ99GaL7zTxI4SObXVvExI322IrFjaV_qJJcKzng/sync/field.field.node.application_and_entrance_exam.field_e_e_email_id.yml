@@ -1,0 +1,19 @@
+uuid: 571ef049-58d4-4a1e-8e07-f5a05995013e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_email_id
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_email_id
+field_name: field_e_e_email_id
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Email ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

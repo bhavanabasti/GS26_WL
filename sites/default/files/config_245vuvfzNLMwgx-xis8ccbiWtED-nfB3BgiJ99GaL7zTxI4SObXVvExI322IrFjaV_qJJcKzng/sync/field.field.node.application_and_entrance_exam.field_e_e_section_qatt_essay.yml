@@ -1,0 +1,19 @@
+uuid: 2d08cf0c-7777-4be3-9d1d-7581edbbf078
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_qatt_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_qatt_essay
+field_name: field_e_e_section_qatt_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay Section  Questions attempted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

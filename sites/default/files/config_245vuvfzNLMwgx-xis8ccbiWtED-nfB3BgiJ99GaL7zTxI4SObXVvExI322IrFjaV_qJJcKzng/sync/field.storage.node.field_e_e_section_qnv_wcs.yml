@@ -1,0 +1,21 @@
+uuid: c14d19db-7620-42d4-96e0-129bde07f2d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_section_qnv_wcs
+field_name: field_e_e_section_qnv_wcs
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

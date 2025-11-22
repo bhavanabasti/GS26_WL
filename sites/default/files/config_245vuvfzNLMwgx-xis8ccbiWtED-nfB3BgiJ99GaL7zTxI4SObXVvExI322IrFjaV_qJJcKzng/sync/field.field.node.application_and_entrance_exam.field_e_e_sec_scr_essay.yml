@@ -1,0 +1,23 @@
+uuid: 4f34a00f-5f25-440b-a567-32421f5c92dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_sec_scr_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_sec_scr_essay
+field_name: field_e_e_sec_scr_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay Section Score'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

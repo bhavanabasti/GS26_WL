@@ -1,0 +1,20 @@
+uuid: 99f765ac-56c4-4163-9f2d-d3f82375d1cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_section_qunt_att_gen
+field_name: field_e_e_section_qunt_att_gen
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

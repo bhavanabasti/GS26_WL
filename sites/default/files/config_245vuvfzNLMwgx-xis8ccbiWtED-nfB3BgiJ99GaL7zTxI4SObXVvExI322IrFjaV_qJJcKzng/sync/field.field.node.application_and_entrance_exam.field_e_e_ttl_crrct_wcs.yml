@@ -1,0 +1,23 @@
+uuid: 69ee1bfe-fb03-4287-9fb8-13082221fa25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_ttl_crrct_wcs
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_ttl_crrct_wcs
+field_name: field_e_e_ttl_crrct_wcs
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Wildlife and Conservation Science Section Total Correct'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

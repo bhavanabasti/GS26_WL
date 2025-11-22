@@ -1,0 +1,19 @@
+uuid: f5020dfb-5b9c-4df9-8f47-b83987434e39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_qnv_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_qnv_essay
+field_name: field_e_e_section_qnv_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay Questions not visited'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 907dc7ba-8073-4ded-af59-d5e741d38309
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_name_quan
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_name_quan
+field_name: field_e_e_section_name_quan
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Quantitative Section Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 765f99c0-ca59-4a1c-b68b-eca835cce6e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_subject
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_subject
+field_name: field_e_e_subject
+entity_type: node
+bundle: application_and_entrance_exam
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

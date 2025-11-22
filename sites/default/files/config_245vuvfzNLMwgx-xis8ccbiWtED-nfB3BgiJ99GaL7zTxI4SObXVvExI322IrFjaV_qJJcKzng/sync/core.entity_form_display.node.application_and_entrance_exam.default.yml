@@ -1,0 +1,771 @@
+uuid: 56aa1118-3b82-4c35-b6e2-6d6074fd3271
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.application_and_entrance_exam.field_e_e_center_code
+    - field.field.node.application_and_entrance_exam.field_e_e_city
+    - field.field.node.application_and_entrance_exam.field_e_e_country
+    - field.field.node.application_and_entrance_exam.field_e_e_drive_id
+    - field.field.node.application_and_entrance_exam.field_e_e_email_id
+    - field.field.node.application_and_entrance_exam.field_e_e_exam_id
+    - field.field.node.application_and_entrance_exam.field_e_e_full_name
+    - field.field.node.application_and_entrance_exam.field_e_e_group_id
+    - field.field.node.application_and_entrance_exam.field_e_e_lan_name
+    - field.field.node.application_and_entrance_exam.field_e_e_max_marks_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_max_marks_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_max_marks_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_max_marks_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_quatt_mfr_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_quatt_mfr_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_quatt_mfr_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_quatt_mfr_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_question_paper
+    - field.field.node.application_and_entrance_exam.field_e_e_qunt_att_mfr_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_qunt_att_mfr_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_qunt_att_mfr_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_qunt_att_mfr_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_sec_scr_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_sec_scr_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_sec_scr_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_sec_scr_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_att_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_att_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_att_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_att_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_id_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_id_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_id_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_id_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_name_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_name_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_name_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_name_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_no_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_no_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_no_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_no_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_op_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_op_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_op_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_op_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qatt_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qatt_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qatt_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qatt_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qnv_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qnv_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qnv_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qnv_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qunt_att_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qunt_att_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qunt_att_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_qunt_att_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_ttl_que_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_ttl_ques_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_ttl_ques_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_ttl_ques_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_section_type_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_section_type_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_section_type_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_section_type_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_seq_no
+    - field.field.node.application_and_entrance_exam.field_e_e_state
+    - field.field.node.application_and_entrance_exam.field_e_e_subject
+    - field.field.node.application_and_entrance_exam.field_e_e_test_center_name
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_att_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_att_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_att_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_att_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_crrct_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_crrct_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_crrct_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_crrct_wcs
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_wrng_essay
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_wrng_gen
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_wrng_quan
+    - field.field.node.application_and_entrance_exam.field_e_e_ttl_wrng_wcs
+    - node.type.application_and_entrance_exam
+  module:
+    - path
+    - text
+id: node.application_and_entrance_exam.default
+targetEntityType: node
+bundle: application_and_entrance_exam
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_e_e_center_code:
+    type: number
+    weight: 126
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_city:
+    type: string_textfield
+    weight: 129
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_country:
+    type: string_textfield
+    weight: 131
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_drive_id:
+    type: string_textfield
+    weight: 141
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_email_id:
+    type: string_textfield
+    weight: 164
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_exam_id:
+    type: string_textfield
+    weight: 142
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_full_name:
+    type: string_textfield
+    weight: 143
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_group_id:
+    type: number
+    weight: 134
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_lan_name:
+    type: string_textfield
+    weight: 128
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_max_marks_essay:
+    type: number
+    weight: 211
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_max_marks_gen:
+    type: number
+    weight: 208
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_max_marks_quan:
+    type: number
+    weight: 209
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_max_marks_wcs:
+    type: number
+    weight: 210
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_quatt_mfr_essay:
+    type: number
+    weight: 191
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_quatt_mfr_gen:
+    type: number
+    weight: 188
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_quatt_mfr_quan:
+    type: number
+    weight: 189
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_quatt_mfr_wcs:
+    type: number
+    weight: 190
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_question_paper:
+    type: string_textfield
+    weight: 133
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_qunt_att_mfr_essay:
+    type: text_textfield
+    weight: 215
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_qunt_att_mfr_gen:
+    type: number
+    weight: 212
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_qunt_att_mfr_quan:
+    type: number
+    weight: 213
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_qunt_att_mfr_wcs:
+    type: number
+    weight: 214
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_sec_scr_essay:
+    type: number
+    weight: 207
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_sec_scr_gen:
+    type: number
+    weight: 204
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_sec_scr_quan:
+    type: number
+    weight: 205
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_sec_scr_wcs:
+    type: number
+    weight: 206
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_att_essay:
+    type: string_textfield
+    weight: 168
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_att_gen:
+    type: string_textfield
+    weight: 165
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_att_quan:
+    type: string_textfield
+    weight: 166
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_att_wcs:
+    type: string_textfield
+    weight: 167
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_id_essay:
+    type: string_textfield
+    weight: 147
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_id_gen:
+    type: string_textfield
+    weight: 144
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_id_quan:
+    type: string_textfield
+    weight: 145
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_id_wcs:
+    type: string_textfield
+    weight: 146
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_name_essay:
+    type: string_textfield
+    weight: 155
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_name_gen:
+    type: string_textfield
+    weight: 152
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_name_quan:
+    type: string_textfield
+    weight: 153
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_name_wcs:
+    type: string_textfield
+    weight: 154
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_no_essay:
+    type: string_textfield
+    weight: 151
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_no_gen:
+    type: string_textfield
+    weight: 148
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_no_quan:
+    type: string_textfield
+    weight: 149
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_no_wcs:
+    type: string_textfield
+    weight: 150
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_op_essay:
+    type: string_textfield
+    weight: 163
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_op_gen:
+    type: string_textfield
+    weight: 160
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_op_quan:
+    type: string_textfield
+    weight: 161
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_op_wcs:
+    type: string_textfield
+    weight: 162
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qatt_essay:
+    type: string_textfield
+    weight: 180
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qatt_gen:
+    type: string_textfield
+    weight: 177
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qatt_quan:
+    type: string_textfield
+    weight: 178
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qatt_wcs:
+    type: string_textfield
+    weight: 179
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qnv_essay:
+    type: string_textfield
+    weight: 176
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qnv_gen:
+    type: string_textfield
+    weight: 173
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qnv_quan:
+    type: string_textfield
+    weight: 174
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qnv_wcs:
+    type: string_textfield
+    weight: 175
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qunt_att_essay:
+    type: number
+    weight: 186
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qunt_att_gen:
+    type: number
+    weight: 181
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qunt_att_quan:
+    type: number
+    weight: 187
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_qunt_att_wcs:
+    type: number
+    weight: 185
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_ttl_que_gen:
+    type: string_textfield
+    weight: 169
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_ttl_ques_essay:
+    type: string_textfield
+    weight: 172
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_ttl_ques_quan:
+    type: string_textfield
+    weight: 170
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_ttl_ques_wcs:
+    type: string_textfield
+    weight: 171
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_type_essay:
+    type: string_textfield
+    weight: 159
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_type_gen:
+    type: string_textfield
+    weight: 156
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_type_quan:
+    type: string_textfield
+    weight: 157
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_section_type_wcs:
+    type: string_textfield
+    weight: 158
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_seq_no:
+    type: string_textfield
+    weight: 140
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_state:
+    type: string_textfield
+    weight: 130
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_subject:
+    type: string_textfield
+    weight: 132
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_test_center_name:
+    type: string_textfield
+    weight: 127
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_att_essay:
+    type: number
+    weight: 195
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_att_gen:
+    type: number
+    weight: 192
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_att_quan:
+    type: number
+    weight: 193
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_att_wcs:
+    type: number
+    weight: 194
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_crrct_essay:
+    type: number
+    weight: 199
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_crrct_gen:
+    type: number
+    weight: 196
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_crrct_quan:
+    type: number
+    weight: 197
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_crrct_wcs:
+    type: number
+    weight: 198
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_wrng_essay:
+    type: number
+    weight: 203
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_wrng_gen:
+    type: number
+    weight: 200
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_wrng_quan:
+    type: number
+    weight: 201
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_e_e_ttl_wrng_wcs:
+    type: number
+    weight: 202
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    weight: 15
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    weight: 16
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

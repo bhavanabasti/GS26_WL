@@ -1,0 +1,19 @@
+uuid: 5916caa5-9537-4c2c-ba4e-fe25ce049bf2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_qatt_gen
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_qatt_gen
+field_name: field_e_e_section_qatt_gen
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'General Section Questions attempted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

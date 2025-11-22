@@ -1,0 +1,19 @@
+uuid: 6e8c0c8e-1025-48b5-96bf-9b7acbbc1a2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_country
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_country
+field_name: field_e_e_country
+entity_type: node
+bundle: application_and_entrance_exam
+label: Country
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

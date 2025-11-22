@@ -1,0 +1,19 @@
+uuid: 636926c0-c114-430a-a2bd-9307350f41bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_type_gen
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_type_gen
+field_name: field_e_e_section_type_gen
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'General Section Type'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

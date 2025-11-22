@@ -1,0 +1,19 @@
+uuid: af96e6b0-e739-49ce-80bf-13ec0bb14974
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_att_quan
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_att_quan
+field_name: field_e_e_section_att_quan
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Quantitative  Is Attempted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

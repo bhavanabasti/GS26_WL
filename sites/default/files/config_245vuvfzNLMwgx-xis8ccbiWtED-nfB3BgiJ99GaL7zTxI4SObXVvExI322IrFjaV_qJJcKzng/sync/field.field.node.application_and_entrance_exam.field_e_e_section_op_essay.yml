@@ -1,0 +1,19 @@
+uuid: ac9740db-5e8c-4e83-852f-88a679ecb9f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_op_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_op_essay
+field_name: field_e_e_section_op_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay Section Optional/Mandatory'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

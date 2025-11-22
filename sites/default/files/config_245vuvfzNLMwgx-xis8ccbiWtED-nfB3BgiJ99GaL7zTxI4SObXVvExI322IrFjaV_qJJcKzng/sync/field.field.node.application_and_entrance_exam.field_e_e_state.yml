@@ -1,0 +1,19 @@
+uuid: 1758abd0-c97e-4760-af4e-d5b0352e50f8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_state
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_state
+field_name: field_e_e_state
+entity_type: node
+bundle: application_and_entrance_exam
+label: State
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

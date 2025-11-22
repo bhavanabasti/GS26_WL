@@ -1,0 +1,20 @@
+uuid: 604be78e-7cde-4287-a3b4-8e28aca53adb
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_section_qunt_att_wcs
+field_name: field_e_e_section_qunt_att_wcs
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

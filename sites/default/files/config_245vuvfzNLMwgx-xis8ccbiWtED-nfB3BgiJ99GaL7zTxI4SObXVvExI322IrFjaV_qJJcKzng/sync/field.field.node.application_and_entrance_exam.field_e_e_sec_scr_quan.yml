@@ -1,0 +1,23 @@
+uuid: 48eaf820-8ca0-4944-99ac-7455db0ced83
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_sec_scr_quan
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_sec_scr_quan
+field_name: field_e_e_sec_scr_quan
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Quantitative Section  Score'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

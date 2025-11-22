@@ -1,0 +1,23 @@
+uuid: 7b58d1a7-a9e5-4fd2-ae9a-25e3b9b08f09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_ttl_crrct_quan
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_ttl_crrct_quan
+field_name: field_e_e_ttl_crrct_quan
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Quantitative Section Total Correct'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

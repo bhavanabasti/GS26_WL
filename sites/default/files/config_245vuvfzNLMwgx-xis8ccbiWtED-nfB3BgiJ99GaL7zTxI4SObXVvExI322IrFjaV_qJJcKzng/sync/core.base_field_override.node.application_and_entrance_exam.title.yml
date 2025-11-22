@@ -1,0 +1,18 @@
+uuid: e17ebd94-b183-490a-bfd7-b71502a806bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.title
+field_name: title
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'GS2026 Admissions'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,19 @@
+uuid: 3446e8e1-69a8-42a6-b4c6-607aceba28a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_att_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_att_essay
+field_name: field_e_e_section_att_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay Is Attempted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

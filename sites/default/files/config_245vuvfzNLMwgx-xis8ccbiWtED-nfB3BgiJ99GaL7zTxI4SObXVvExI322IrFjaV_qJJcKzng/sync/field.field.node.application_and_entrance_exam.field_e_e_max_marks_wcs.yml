@@ -1,0 +1,23 @@
+uuid: 7d9397ed-5e15-43fe-ac35-e2cf34c1ed92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_max_marks_wcs
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_max_marks_wcs
+field_name: field_e_e_max_marks_wcs
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Wildlife and Conservation Science Section Maximum Marks'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

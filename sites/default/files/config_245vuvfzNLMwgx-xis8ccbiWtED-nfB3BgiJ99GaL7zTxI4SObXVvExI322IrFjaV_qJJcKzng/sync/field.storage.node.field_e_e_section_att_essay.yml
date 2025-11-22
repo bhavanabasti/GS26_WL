@@ -1,0 +1,21 @@
+uuid: 622fe4b2-b2fa-4f88-be25-7d4973fe90be
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_section_att_essay
+field_name: field_e_e_section_att_essay
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

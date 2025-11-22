@@ -1,0 +1,19 @@
+uuid: b1a86f63-0e42-469a-a358-9e69f2b85199
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_exam_id
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_exam_id
+field_name: field_e_e_exam_id
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Exam ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

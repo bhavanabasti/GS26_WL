@@ -1,0 +1,19 @@
+uuid: c5f418e2-c248-4b7d-a364-9084819ca47c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_no_quan
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_no_quan
+field_name: field_e_e_section_no_quan
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Quantitative Section Number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

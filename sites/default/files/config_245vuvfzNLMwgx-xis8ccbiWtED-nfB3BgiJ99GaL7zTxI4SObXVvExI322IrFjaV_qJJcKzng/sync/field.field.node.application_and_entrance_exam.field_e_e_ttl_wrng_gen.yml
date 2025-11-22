@@ -1,0 +1,23 @@
+uuid: 11685f1e-ae2b-4c45-aeac-a725214752aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_ttl_wrng_gen
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_ttl_wrng_gen
+field_name: field_e_e_ttl_wrng_gen
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'General Section Total Wrong'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

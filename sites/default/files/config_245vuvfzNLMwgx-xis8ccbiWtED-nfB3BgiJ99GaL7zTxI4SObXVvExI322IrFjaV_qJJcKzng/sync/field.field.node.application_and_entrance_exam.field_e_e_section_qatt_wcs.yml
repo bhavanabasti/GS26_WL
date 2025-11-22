@@ -1,0 +1,19 @@
+uuid: 5b5fa82b-a1b1-4c9b-acf2-0435f09665eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_qatt_wcs
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_qatt_wcs
+field_name: field_e_e_section_qatt_wcs
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Wildlife and Conservation Science Questions attempted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

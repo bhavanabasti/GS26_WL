@@ -1,0 +1,19 @@
+uuid: 94bb53be-2863-463a-9118-8ef1e9dcf705
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_section_id_essay
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_section_id_essay
+field_name: field_e_e_section_id_essay
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Essay Section ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+uuid: e128d82e-7122-4745-b0ba-eb05aa192356
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_sec_scr_gen
+field_name: field_e_e_sec_scr_gen
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

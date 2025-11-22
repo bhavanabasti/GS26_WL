@@ -1,0 +1,20 @@
+uuid: 9277ff47-9b8f-4688-9238-d61c2d2b685f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_ttl_att_essay
+field_name: field_e_e_ttl_att_essay
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

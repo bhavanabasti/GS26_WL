@@ -1,0 +1,23 @@
+uuid: b3fc7a01-2f19-4486-a66c-c38bfcb70c9f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_center_code
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_center_code
+field_name: field_e_e_center_code
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Test Center Code'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

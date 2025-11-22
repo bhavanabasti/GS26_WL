@@ -1,0 +1,23 @@
+uuid: 65ccc2b1-abb0-4342-ab9d-08e3a97b8815
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_sec_scr_gen
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_sec_scr_gen
+field_name: field_e_e_sec_scr_gen
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'General Section Section Score'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

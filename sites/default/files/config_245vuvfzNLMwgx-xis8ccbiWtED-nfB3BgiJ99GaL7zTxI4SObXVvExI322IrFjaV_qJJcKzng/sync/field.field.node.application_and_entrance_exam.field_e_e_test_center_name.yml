@@ -1,0 +1,19 @@
+uuid: 9267a6b9-650d-42bc-a418-06706d880e2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_e_e_test_center_name
+    - node.type.application_and_entrance_exam
+id: node.application_and_entrance_exam.field_e_e_test_center_name
+field_name: field_e_e_test_center_name
+entity_type: node
+bundle: application_and_entrance_exam
+label: 'Test Center Name'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

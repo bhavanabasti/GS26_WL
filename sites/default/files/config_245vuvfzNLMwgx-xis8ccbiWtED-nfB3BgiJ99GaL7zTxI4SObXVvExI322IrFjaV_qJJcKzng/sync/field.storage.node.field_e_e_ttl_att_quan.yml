@@ -1,0 +1,20 @@
+uuid: b19999c1-e1c0-41af-997c-9a578883eae5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_e_e_ttl_att_quan
+field_name: field_e_e_ttl_att_quan
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
