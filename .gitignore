@@ -4,6 +4,10 @@
 /sites/*/private/
 /sites/*/translations/
 
+# Ignore Drupal public files except configuration sync directory
+sites/*/files/*
+!sites/*/files/config_*/sync/**
+
 # Ignore contributed code
 /modules/contrib/
 /themes/contrib/
@@ -13,10 +17,6 @@
 /modules/custom/
 /themes/custom/
 /profiles/custom/
-
-# Ignore configuration that isn’t exported
-/config/
-/tmp/
 
 # Common system files
 *.sql

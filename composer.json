@@ -29,6 +29,7 @@
         "drupal/flood_control": "^3.0",
         "drupal/login_destination": "^2.0@beta",
         "drupal/menu_item_extras": "^3.1",
+        "drupal/menu_item_role_access": "^2.4",
         "drupal/pathauto": "^1.14",
         "drupal/reroute_email": "^2.2",
         "drupal/seckit": "^2.0",
